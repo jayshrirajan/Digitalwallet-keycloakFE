@@ -1,0 +1,7 @@
+.pd-datepicker{
+    display: block;
+}
+
+.bDate-invalid{
+    display: block !important;
+}

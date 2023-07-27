@@ -1,0 +1,60 @@
+.btn-container{
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 50%;
+}
+
+.btn-container .action{
+    border-radius: 0 !important;
+    background-color: #0047AB;
+    background: black;
+    line-height: 0.5;
+    height: 30px;
+    font-size: 14px;
+}
+
+.btn-container .action:hover{
+    border-radius: 0 !important;
+    background: black;
+   
+}
+
+.btn-container .cancel{
+    border-radius: 0 !important;
+    margin-right: 20px;
+    font-size: 14px;
+    border: 0;
+    color: white;
+    background-color: #0047AB;
+    line-height: 0.5;
+    height: 30px;
+}
+
+.btn-container .cancel:hover{
+    border-radius: 0 !important;
+    background-color: #0047AB;
+    font-size: 14px;
+    border: 0;
+    color: white;
+}
+
+.re-send-container{
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 15px;;
+}
+
+.re-send-container .resend{
+    border-radius: 0 !important;
+    color: #0047AB !important;
+    line-height: 0.5;
+    height: 30px;
+    font-size: 14px;
+}
+
+.btn-container .resend:hover{
+  
+   
+}

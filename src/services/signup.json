@@ -1,0 +1,25 @@
+{
+    "username": "",
+       "name": {
+           "firstName": "",
+           "middleName": "",
+           "lastName": ""
+       },
+       "password": "",
+       "dateOfBirth": "",
+       "address": {
+           "address1": "",
+           "address2": "",
+           "city": "",
+           "state": "",
+           "country": "",
+           "zip": ""
+       },
+       "mobileNumber": "",
+       "emailAddress": "",
+       "kycIdentiyNumber": "",
+       "kycIdentityType": "",
+       "kycIdentityExpiration": "",
+       "hasAdminRole": null
+       
+}

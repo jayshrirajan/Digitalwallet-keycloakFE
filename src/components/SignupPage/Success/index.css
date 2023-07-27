@@ -1,0 +1,56 @@
+.sign-up{
+    background: url("../../../assets/images/wecome-bg.png") no-repeat;;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: right;
+  }
+
+
+
+    
+.button-container{
+    width:40%;
+    margin:0 auto;
+    padding-top:15px;
+}
+
+
+    .button-container .cancel{
+        border-radius: 0 !important;
+        margin-right: 20px;
+        font-size: 14px;
+        border: 0;
+        color: white;
+        background-color: #0047AB;
+    }
+    
+    .button-container .cancel:hover{
+        border-radius: 0 !important;
+        background-color: #0047AB;
+        font-size: 14px;
+        border: 0;
+        color: white;
+    }
+
+    .success-msg{
+        text-align: center;
+        margin-top: 30%;
+    }
+
+    .custom-title-success{
+        text-align: center;
+    }
+
+    .details-wrapper-success{
+        text-align: center;
+    }
+
+    .wallet-details-card-success {
+        width: 50% !important;
+        margin: 0 auto !important;
+        background: green !important;
+    }
+
+    

@@ -1,0 +1,13 @@
+version: "3"
+services:
+  # React app container
+  ui-service:
+    image: chitramsys/ui-service
+    container_name : chitramsys-ui-service
+    build: .
+    ports:
+      - "3000:3000"
+    networks:
+      - digital-wallet-network
+networks:
+  digital-wallet-network

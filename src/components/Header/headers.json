@@ -1,0 +1,31 @@
+[{
+    "page": "welcome",
+    "menu": [
+      {
+        "displayName": "Sign Up",
+        "key": "signup",
+        "keyCloak": null 
+      },
+      {
+        "displayName": "Dashboard",
+        "key": "dashboard",
+        "keyCloak": "false"   
+      },
+      {
+        "displayName": "Sign In",
+        "key": "signin",
+        "keyCloak": "true"  
+      }
+    ]
+  },
+  {
+    "page": "signup",
+    "menu": [
+      
+    ]
+  },
+  {
+    "page": "dashboard",
+    "menu": [
+    ]
+}]

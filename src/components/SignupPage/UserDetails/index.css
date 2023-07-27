@@ -1,0 +1,85 @@
+.title{
+    padding:10px;
+    font-family: Lato;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-elements{
+    text-align: left;
+    padding: 0px 20px 10px 20px;
+}
+
+.form-control{
+    border-radius: 0 !important;
+    outline: none;
+  }
+
+  .form-label{
+    font-size: 12px !important;
+    font-family: sans-serif;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 12px !important;
+        padding:0 !important;
+        line-height: 0 !important;
+      }
+      
+      :-moz-placeholder { /* Firefox 18- */
+           font-size: 12px !important;
+           padding:0 !important;
+           line-height: 0 !important;
+      }
+      
+      ::-moz-placeholder {  /* Firefox 19+ */
+           font-size: 12px !important;
+           padding:0 !important;
+           line-height: 0 !important;
+      }
+
+ 
+input.form-fixer {
+    padding: 5px;
+    line-height: 1;
+}
+
+.button-container{
+   padding-bottom: 15px;
+   display: flex;
+   justify-content: center;
+    padding-top:15px;
+}
+
+.button-container .action{
+    border-radius: 0 !important;
+    background-color: #0047AB;
+    background: black;
+    line-height: 0.5;
+    height: 30px;
+}
+
+.button-container .action:hover{
+    border-radius: 0 !important;
+    background: black;
+   
+}
+
+.button-container .cancel{
+    border-radius: 0 !important;
+    margin-right: 20px;
+    font-size: 14px;
+    border: 0;
+    color: white;
+    background-color: #0047AB;
+    line-height: 0.5;
+    height: 30px;
+}
+
+.button-container .cancel:hover{
+    border-radius: 0 !important;
+    background-color: #0047AB;
+    font-size: 14px;
+    border: 0;
+    color: white;
+}

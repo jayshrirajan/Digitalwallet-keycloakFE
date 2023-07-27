@@ -1,0 +1,175 @@
+.outer-container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.wallet-form-container{
+  width: 90%;
+  border: 1px solid #e8e8e8;
+  margin: 0 auto;
+  margin-left: 0 !important;
+  text-align: left !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: aliceblue;
+  background-image: none !important;
+}
+
+.transfer-wallet--container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallet-outer-circle{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  box-shadow: 0 0 50px #ccc;
+}
+
+.wallet-inner-circle{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  flex-direction: column;
+}
+
+.wallet-bal-title{
+  font-size: 25px;
+  font-weight: 700;
+  color: #5944FF;
+}
+
+.wallet-bal-value{
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+}
+
+.wallet-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.box-wrapper{
+  display: flex;
+  align-items: start;
+}
+.clickme {
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+}
+
+.lable-align {
+  text-align: left !important;
+}
+
+.form-control {
+  border-radius: 0;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.button-align {
+  margin-left: 30px;
+}
+
+.submit {
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px
+}
+
+
+.sel-acc-opt{
+  width: 100%;
+  -webkit-appearance: menulist-button;
+  height: 50px !important;
+}
+
+.select-wrapper {
+  border-radius: 0;
+  /* float: right; */
+  margin-bottom: 30px;
+  background-color: aliceblue;
+  width: 90%;
+}
+
+.select-wrapper-input {
+  border-radius: 0;
+  /* float: right; */
+  background-color: white;
+  width: 100%;
+  height: 40px;
+  padding: 0 0 0 12px;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 0.25rem #fbfcfd40;
+}
+
+.toast-wrapper {
+  position: absolute;
+  right: 0;
+  width: 30%;
+  bottom: 0;
+
+}
+
+.close-btn {
+  float: right;
+  font-size: 11px;
+}
+
+.email-radio--input{
+  margin-left: 1rem
+}
+
+.radio-option--container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.email-mobile--label{
+  margin-bottom: 0 !important;
+  margin-left: 3px;
+}
+
+.no-wallet-found{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-wallet-found--text{
+  color: red;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.loader-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

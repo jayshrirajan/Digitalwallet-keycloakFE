@@ -1,0 +1,41 @@
+/* .outer-container {
+    border: 1px solid #e8e8e8;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    background-image: linear-gradient(95.2deg, rgba(173, 252, 234, 1) 26.8%, rgba(192, 229, 246, 1) 64%);
+
+} */
+
+.clickme {
+    cursor: pointer;
+}
+
+.content {
+    padding: 15px;
+}
+
+.link-label {
+    text-align: center;
+}
+
+.dashboard-container {
+    padding: 50px;
+
+    background-color: orange;
+}
+
+.wallet-details-card {
+    width: 40%;
+    margin: 20px;
+}
+
+.create-wallet-btn {
+    margin: 20px;
+}
+
+.details-wrapper {
+    /* margin-left: 10px; */
+    font-size: 14px;
+}

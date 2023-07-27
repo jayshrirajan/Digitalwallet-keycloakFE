@@ -1,0 +1,21 @@
+.isSideBarCollapsed {
+    display: none !important
+  }
+
+  .isSideBarNotCollapsed {
+    display: inline !important
+  }
+
+  .sidebar-icon{
+    display: flex;
+    align-items: center;
+    padding:16px;
+  }
+
+  .selected{
+    color: green;
+  }
+  .unselected{
+
+  }
+  

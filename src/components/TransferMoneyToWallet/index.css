@@ -1,0 +1,18 @@
+
+
+a {
+  text-decoration: none;
+}
+
+/* CARD STYLES START */
+
+.card {
+  flex-basis: 30%;
+}
+
+i.fa {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* CARD STYLES END */
