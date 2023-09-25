@@ -259,12 +259,15 @@ function App() {
     setData(datalinkaccount1?.result?.data);
     setAccountLoader(false);
   };
+ 
   return (
     <>
       <Header page={'dashboard'}></Header>
       <div className="container-fluid content-area">
         <div className="row flex-nowrap">
+          <div style={'bz'}>
           <SideBar />
+          </div>
           {loading ? (
             <div className="loader-container-dashboard">
               <Loader />
@@ -428,7 +431,7 @@ function App() {
                         No accounts linked yet!
                       </div>
                     ) : (
-                      data.map((account, i) => (
+                      data?.map((account, i) => (
                         <div
                           key={i}
                           className="col-3"
